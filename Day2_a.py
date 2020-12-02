@@ -36,6 +36,6 @@ if int_range1 <= var_string.count(var_char) <= int_range2:
     print('pass')
 
 
-parts = input.split("-")
+parts = inputs.split("-")
 print(parts[0])
 print(parts[1])
