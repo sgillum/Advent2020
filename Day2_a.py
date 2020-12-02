@@ -20,17 +20,22 @@ print(len(inputs))
 #1-2 t: rttb
 
 int_range1 = 4
-int_range2 = 5
+int_range2 = 8
 var_char = 't'
 var_string = 'ftttttrvts'
 
-print(var_string.count(var_char))
+#print(var_string.count(var_char))
 
-if 10000 <= 12345 <= 30000:
-    print("pass")
+#if 10000 <= 12345 <= 30000:
+#    print("pass")
 
-if 5 <= var_string.count(var_char) <= 9:
-   print("pass")
+#if 5 <= var_string.count(var_char) <= 9:
+#   print("pass")
 
 if int_range1 <= var_string.count(var_char) <= int_range2:
-    pass
+    print('pass')
+
+
+parts = input.split("-")
+print(parts[0])
+print(parts[1])
