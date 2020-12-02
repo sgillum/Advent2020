@@ -19,8 +19,8 @@ print(len(inputs))
 #4-6 k: gqjkkk
 #1-2 t: rttb
 
-int_range1 = "4"
-int_range2 = "5"
+int_range1 = 4
+int_range2 = 5
 var_char = 't'
 var_string = 'ftttttrvts'
 
