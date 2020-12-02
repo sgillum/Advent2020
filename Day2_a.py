@@ -15,6 +15,8 @@ print(len(inputs))
  
 # Example inputs: 4-5 t: ftttttrvts
 
+import re
+
 int_range1 = 4
 int_range2 = 8
 var_char = 't'
@@ -23,6 +25,4 @@ var_string = 'ftttttrvts'
 if int_range1 <= var_string.count(var_char) <= int_range2:
     print('pass')
 
-parts = inputs.split("-")
-print(parts[0])
-print(parts[1])
+for line in inputs:    print(re.match(r"(\d+)", input.line))
